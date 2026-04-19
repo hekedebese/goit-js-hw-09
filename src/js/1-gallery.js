@@ -79,7 +79,7 @@ function createMarkup(arr) {
       class="gallery-image"
       src="${item.preview}"
       data-source="${item.original}"
-      alt=""
+      alt="${item.description}"
       width='360'
       height='200'
     />
